@@ -1,4 +1,4 @@
-<h1 align="center">Deploy an infrastructure using Terraform and Jenkins agent<h1> 
+<h1 align="center">Deploy an Infrastructure using Terraform and Jenkins Agent<h1> 
 
 
 # Deployment 6
@@ -9,7 +9,7 @@ By: Andrew Mullen
 ## Purpose:
 
 Purpose:
-Demonstrate our ability to deploy an infrastructure using Terraform.  First, deploy a Jenkins infrastructure with a main and agent servers.  Also, utilize Jenkins agents, use Terraform, and deploy the Banking Flask application to EC2 instances across regions and AZ's.
+Demonstrate our ability to use Terraform to deploy infrastructure. First, deploy a Jenkins infrastructure with a main and agent servers.  Also, utilize Jenkins agents, use Terraform, and deploy the Banking Flask application to EC2 instances across regions and AZ's.
 
 ## Steps:
 
