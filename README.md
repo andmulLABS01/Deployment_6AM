@@ -156,7 +156,7 @@ Instance 2:
 
 ## System Diagram:
 
-To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_6AM/blob/main/Deployment_6.drawio.png)
+To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_6AM/blob/main/Deployment_6-classupdate.drawio.png)
 
 ## Issues/Troubleshooting:
 
