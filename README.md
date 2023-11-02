@@ -144,14 +144,15 @@ Instance 2:
 		- This will allow us to not have internet traffic directly access our application servers. 
 		- Have an additional layer of protection from our database.
 	- Private subnets
-		- This will allow for us to place our application servers in a subnet that does not have direct access to the internet and allows for additional network segmentation and increased security.
+		- This will allow us to place our application servers in a subnet that does not have direct access to the internet and allows for additional network segmentation and increased security.
 	- NAT Gateway
 		- Will allow our applications to reply back to users as they will be in a private subnet that does not have access to the internet.
 	- API Gateway
 		- To increase the security of who/what can access our application
 	- Network Load Balancer
 		- To balance the network traffic received from the API Gateway to our application servers. load balancer to balance traffic between the two application servers to make the application more available to users.
-
+	- Route 53
+		- Adding DNS service to give a reliable and cost-effective way to route end users to the application.
 
 ## System Diagram:
 
