@@ -140,9 +140,8 @@ Instance 2:
 ### 9. With both infrastructures deployed, is there anything else we should add to our infrastructure?
 
 - I believe that we could add the following to our infrastructure:
-	- Reverse web proxy such as nginx.  
-		- This will allow us to not have internet traffic directly access our application servers. 
-		- Have an additional layer of protection from our database.
+	- Route 53
+		- Adding DNS service to give a reliable and cost-effective way to route end users to the application.
 	- Private subnets
 		- This will allow us to place our application servers in a subnet that does not have direct access to the internet and allows for additional network segmentation and increased security.
 	- NAT Gateway
@@ -151,8 +150,9 @@ Instance 2:
 		- To increase the security of who/what can access our application
 	- Network Load Balancer
 		- To balance the network traffic received from the API Gateway to our application servers. load balancer to balance traffic between the two application servers to make the application more available to users.
-	- Route 53
-		- Adding DNS service to give a reliable and cost-effective way to route end users to the application.
+ 	- Reverse web proxy such as nginx.  
+		- This will allow us to not have internet traffic directly access our application servers. 
+		- Have an additional layer of protection from our database.
 
 ## System Diagram:
 
